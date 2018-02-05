@@ -1,24 +1,8 @@
 # README
+Application qui permet de se loger pour découvrir The secret of the world
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Connecte toi sur le lien heroku, crée ton compte et découvre le secret!
 
-Things you may want to cover:
+https://mighty-thicket-59816.herokuapp.com/
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+@+ 
