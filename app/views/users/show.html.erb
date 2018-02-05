@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="http://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+
+
+<% provide(:title, @user.name) %>
+<div class="row">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for @user %>
+        <p>Bienvenue sur LA page secrète <%= @user.name %> </p>
+      </h1>
+      <p> Ton adresse email <%= @user.email %> est maintenant aux mains de la CIA/NSA/Nasa etc.. ainsi que toute ta vie, muahahahaha!</p>
+
+    <p>Il est temps pour toi de connaitre la vérité : <br>
+      La terre est plate pauvre humain insignifiant!</p>
+      <img src="https://www.terresacree.org/actualites/fichiers/images/2017-02/1486932640-t8d.jpg">
+  <br>
+  <%= link_to "Log out", logout_path, method: :delete, class: "btn btn-lg btn-primary" %>
+  </section>
+</div>
