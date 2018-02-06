@@ -1,0 +1,19 @@
+<% provide(:title, "User / Update") %>
+<% provide(:button_text, "Mettre à jour") %>
+<h1>Mise à jour du profil</h1>
+<div class="row">
+  <div class="col-md-6">
+    <%= render 'form' %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="http://gravatar.com/emails" target="_blank" class="btn btn-primary">Changer</a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <%= image_tag("thp-big.png", alt: "The Hacking Project Logo", class: "thp") %>
+    <p>
+      <br>
+      <%= link_to "Supprimer", @user, method: :delete, data: { confirm: "T'es sûr ?" }, class: "btn btn-primary" %>
+    </p>
+  </div>
+</div>
